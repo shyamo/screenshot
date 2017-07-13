@@ -16,9 +16,9 @@ const dateFormat = require('dateformat');
 var dt = new Date(),
 responsive = new Array(),
 responsive = [
-  {'type':'Mobile', 'size':'375x3000',  'destination':'/mobile'},
-  {'type':'Tablet', 'size':'768x3000',  'destination':'/tablet'},
-  {'type':'Desktop','size':'1024x3000', 'destination':'/desktop'}];
+  {'type':'Mobile', 'size':'320x3000',  'destination':'/mobile'},
+  {'type':'Tablet', 'size':'852x3000',  'destination':'/tablet'},
+  {'type':'Desktop','size':'1400x3000', 'destination':'/desktop'}];
 var urlList = new Array(),
 urlList = [
   {'url':'https://www.lonelyplanet.com'},
