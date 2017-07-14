@@ -57,14 +57,14 @@ gulp.task('default', function() {
   gulp.start('capture');
 });
 gulp.task('capture', function() {
-  gulp.start('mobile-screenshot', 'tablet-screenshot', 'desktop-screenshot');
+  gulp.start('mobile', 'tablet', 'desktop');
 });
-gulp.task('mobile-screenshot', function() {
+gulp.task('mobile', function() {
   loopUrls(responsive[0].size, responsive[0].type, responsive[0].destination);
 });
-gulp.task('tablet-screenshot', function() {
+gulp.task('tablet', function() {
   loopUrls(responsive[1].size, responsive[1].type, responsive[1].destination);
 });
-gulp.task('desktop-screenshot', function() {
+gulp.task('desktop', function() {
   loopUrls(responsive[2].size, responsive[2].type, responsive[2].destination);
 });
